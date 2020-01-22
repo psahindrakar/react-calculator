@@ -1,0 +1,7 @@
+.display {
+    width: inherit;
+    height: 40vh;
+    flex-grow: 100 100 auto;
+    background-color: white;
+    border-bottom: 2px #a2a2a2 solid;
+}
