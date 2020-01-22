@@ -1,0 +1,11 @@
+.keypad {
+    width: inherit;
+    height: 60vh;
+    display: flex;
+    flex-grow: 100 100 auto;
+    align-items: stretch;
+    flex-basis: auto;
+    flex-flow: row wrap;
+    align-items: stretch;
+    justify-content: flex-start;
+}
