@@ -1,5 +1,6 @@
 # react-calculator
-A simple calculator to test reat, redux and redux-toolbelt capabilities
+A simple calculator to test reat, redux and redux-toolbelt capabilities. Tested only on Chrome.
+
 
 # How is this project generated
 - This project is created using create-react-app
@@ -8,6 +9,7 @@ A simple calculator to test reat, redux and redux-toolbelt capabilities
     - `sudo n stable`
 - Remove previous create-react-app if already globally installed using `npm uninstall -g create-react-app`
 - Generate folder structure using `npx create-react-app react-calculator`
+- Integrated story book for components visual testing. `npm install --save-dev @storybook/addon-actions @storybook/addon-knobs @storybook/addon-links @storybook/addon-storyshots @storybook/addons @storybook/react`
 
 # Folder structure
 By default, at root level only public and src folders are created by create-react-app. Inside src folder following structure is implemented:
