@@ -2,28 +2,16 @@ import React from 'react';
 import './Keypad.css';
 import NumpadKey from '../../../../components/NumpadKey';
 
-function Keypad() {
+function Keypad({keys, onClick}) {
+    const events = {
+        onClick
+    };
+
     return (
         <div class="keypad">
-            <NumpadKey/>
-            <NumpadKey/>
-            <NumpadKey/>
-            <NumpadKey/>
-
-            <NumpadKey/>
-            <NumpadKey/>
-            <NumpadKey/>
-            <NumpadKey/>
-
-            <NumpadKey/>
-            <NumpadKey/>
-            <NumpadKey/>
-            <NumpadKey/>
-
-            <NumpadKey/>
-            <NumpadKey/>
-            <NumpadKey/>
-            <NumpadKey/>
+            {keys.split('').map(key => (
+                <NumpadKey value={key} {...events} />
+            ))}
         </div>
     );
 }
