@@ -14,6 +14,8 @@ A simple calculator to test reat, redux and redux-toolbelt capabilities. Tested 
 - Added `storybook`, `build-storybook` commands to package.json
 - Execute `npm run build-storybook` to build the storybook
 - Execute `npm run storybook` to check storybook in action
+- Installing redux-toolbelt to reduce the redux boilerplate code `npm install --save react-redux redux redux-toolbelt`
+- If required to make API calls use `npm intall --save redux-toolbelt-saga redux-saga` along with react-toolbelt 
 
 # Folder structure
 By default, at root level only public and src folders are created by create-react-app. Inside src folder following structure is implemented:
