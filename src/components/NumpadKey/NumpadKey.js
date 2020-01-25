@@ -1,9 +1,10 @@
 import React from 'react';
 import './NumpadKey.css';
 
-function NumpadKey() {
+function NumpadKey({value, onClick}) {
+
     return (
-        <div className="key"><p><b>1</b></p></div>
+        <div className="key" onClick={() => onClick(value)}><p><b>{value}</b></p></div>
     );
 }
 
