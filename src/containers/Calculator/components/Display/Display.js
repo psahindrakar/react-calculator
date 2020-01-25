@@ -1,10 +1,11 @@
 import React from 'react';
 import './Display.css';
 
-function Display() {
+function Display({expression, result}) {
     return (
         <div className="display">
-            1
+            <p className="expression">{expression}</p>
+            <p className="result">{result}</p>
         </div>
     );
 }

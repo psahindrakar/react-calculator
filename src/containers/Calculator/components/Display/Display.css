@@ -4,4 +4,20 @@
     flex-grow: 100 100 auto;
     background-color: white;
     border-bottom: 2px #a2a2a2 solid;
+    padding: 0 0;
+}
+
+.display p {
+    padding: 0 0.2em;
+    margin: 0 0;
+    text-align: right;
+}
+
+p.expression {
+    font-size: 7em;
+}
+
+p.result {
+    font-size: 5em;
+    color: #a2a2a2;
 }
