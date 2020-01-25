@@ -5,25 +5,25 @@ import NumpadKey from '../../../../components/NumpadKey';
 function Keypad() {
     return (
         <div class="keypad">
-            <NumpadKey></NumpadKey>
-            <NumpadKey></NumpadKey>
-            <NumpadKey></NumpadKey>
-            <NumpadKey></NumpadKey>
+            <NumpadKey/>
+            <NumpadKey/>
+            <NumpadKey/>
+            <NumpadKey/>
 
-            <NumpadKey></NumpadKey>
-            <NumpadKey></NumpadKey>
-            <NumpadKey></NumpadKey>
-            <NumpadKey></NumpadKey>
+            <NumpadKey/>
+            <NumpadKey/>
+            <NumpadKey/>
+            <NumpadKey/>
 
-            <NumpadKey></NumpadKey>
-            <NumpadKey></NumpadKey>
-            <NumpadKey></NumpadKey>
-            <NumpadKey></NumpadKey>
+            <NumpadKey/>
+            <NumpadKey/>
+            <NumpadKey/>
+            <NumpadKey/>
 
-            <NumpadKey></NumpadKey>
-            <NumpadKey></NumpadKey>
-            <NumpadKey></NumpadKey>
-            <NumpadKey></NumpadKey>
+            <NumpadKey/>
+            <NumpadKey/>
+            <NumpadKey/>
+            <NumpadKey/>
         </div>
     );
 }
