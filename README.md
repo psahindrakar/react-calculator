@@ -1,6 +1,10 @@
 # react-calculator
 A simple calculator to test reat, redux and redux-toolbelt capabilities. Tested only on Chrome.
 
+# Pending improvements
+- Adding a clear button
+- Adding complex math operations
+- Handling horizontal scroll if the expression is too long
 
 # How is this project generated
 - This project is created using create-react-app
@@ -16,6 +20,8 @@ A simple calculator to test reat, redux and redux-toolbelt capabilities. Tested 
 - Execute `npm run storybook` to check storybook in action
 - Installing redux-toolbelt to reduce the redux boilerplate code `npm install --save react-redux redux redux-toolbelt`
 - If required to make API calls use `npm intall --save redux-toolbelt-saga redux-saga` along with react-toolbelt 
+- Adding redux-mock-store for testing reducer operations `npm install --save-dev redux-mock-store`
+- Run `npm run test` to see the test results
 
 # Folder structure
 By default, at root level only public and src folders are created by create-react-app. Inside src folder following structure is implemented:

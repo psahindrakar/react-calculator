@@ -1,9 +1,13 @@
 import { makeActionCreator, makeReducer } from 'redux-toolbelt';
 
+// Action types
+export const actionTypes = {
+    ON_KEYSTROKE: 'ON_KEYSTROKE'
+}
+
 // Actions
 export const actions = {
-    onKeystroke: makeActionCreator('ON_KEYSTROKE'),
-    onCalculate: makeActionCreator('ON_CALCULATE')
+    onKeystroke: makeActionCreator('ON_KEYSTROKE')
 };
 
 const calculatorRegex = /^([-+]?)((\d+)?(.\d+)?)(?:([-+*\/])((?:[-+])?\d+(.\d+)?))+$/;
