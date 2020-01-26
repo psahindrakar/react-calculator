@@ -8,9 +8,9 @@ import Keypad from './components/Keypad';
 import './Calculator.css';
 import { calculatorActions } from '../../state/calculator';
 
-function Calculator({expression, result, onClick}) {
+function Calculator({expression, result, onNumpadKey, computeResult}) {
     const keypadHandlers = {
-        onClick
+        onClick: (key) => onNumpadKey(key)
     };
 
     return (
@@ -40,7 +40,8 @@ const mapStateToProps = ({ calculator }) => {
 };
 
 const mapDispatchToProps = dispatch => ({
-    onClick: key => dispatch(calculatorActions.onKeystroke({key}))
+    onNumpadKey: key => dispatch(calculatorActions.onKeystroke({key})),
+    computeResult: expression => dispatch(calculatorActions.onCalculate({expression}))
 });
 
 export default connect(
